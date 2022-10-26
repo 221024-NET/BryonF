@@ -10,6 +10,27 @@ public class Program
 	//[access modifier] [modifier] [return type] [method name] ([parameters])
 	public static void Main()
 	{
+		bool running = true;
+
+		while (running)
+		{
+		CoinFlipper();
+		Console.WriteLine("\n Would you like to flip more coins?");
+		Console.WriteLine("Enter'y' or 'Y' to run again, ore anything else to exit:");
+
+		string PlayAgain =Console.ReadLine().ToUpper();
+
+		if (!PlayAgain.ToUpper().Equals("Y"))
+		{
+			running = false;
+		}
+
+
+		}
+	}
+
+	public static void CoinFlipper()
+	{
 		Console.WriteLine("Starting Coin Flipper:");
 		
 		Console.WriteLine("Enter the number of coins to flip: ");
@@ -39,6 +60,8 @@ public class Program
 		}
 		
 		Flip(Num);
+
+
 	}
 	
 	//[access modifier] [modifier] [return type] [method name] ([parameters])
