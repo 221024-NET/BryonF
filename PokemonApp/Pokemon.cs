@@ -5,7 +5,7 @@ namespace PokemonApp{
      public class Pokemon{
         
         //Fields - by default they are Private. 
-        protected string name {get; set;}
+       protected string name {get; set;}
        protected  int DexNumber {get; set;}
         protected string type {get; set;}
        protected  int health {get; set;}

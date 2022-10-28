@@ -17,6 +17,8 @@ namespace PokemonApp
             catchRate = .5;
             caught = new nullPokemon();
 
+        
+
         }
 
         public void catchemAll (Pokemon pokemon)
