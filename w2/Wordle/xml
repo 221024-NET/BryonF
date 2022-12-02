@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ArrayOfUser xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <User userName="Skyler">
+        <password>kitty</password>
+        <wins>1</wins>
+        <losses>0</losses>
+        <averageTurns>2</averageTurns>
+        <turns>
+            <int>0</int>
+            <int>0</int>
+            <int>1</int>
+            <int>0</int>
+            <int>0</int>
+            <int>0</int>
+            <int>0</int>
+        </turns>
+    </User>
+    <User userName="Carol">
+        <password>Password123</password>
+        <wins>2</wins>
+        <losses>0</losses>
+        <averageTurns>1</averageTurns>
+        <turns>
+            <int>0</int>
+            <int>1</int>
+            <int>1</int>
+            <int>0</int>
+            <int>0</int>
+            <int>0</int>
+            <int>0</int>
+        </turns>
+    </User>
+    <User userName="Bryon">
+        <password>fields</password>
+        <wins>6</wins>
+        <losses>0</losses>
+        <averageTurns>2</averageTurns>
+        <turns>
+            <int>0</int>
+            <int>2</int>
+            <int>2</int>
+            <int>1</int>
+            <int>1</int>
+            <int>0</int>
+            <int>0</int>
+        </turns>
+    </User>
+</ArrayOfUser>
